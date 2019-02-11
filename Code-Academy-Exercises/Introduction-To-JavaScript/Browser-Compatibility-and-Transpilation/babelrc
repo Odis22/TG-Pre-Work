@@ -1,0 +1,5 @@
+{
+  "presets": ["env"]
+}
+
+// you define the preset for your source Javascript file

@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+ color: maroon; 
+}
+
+.title {
+color: teal;
+}
+
+
+/****
+by adding class names to elements, we can give elements with that same class the same attributes. for instance, an element with the name class will have the 
+color teal
+**/

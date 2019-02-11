@@ -1,0 +1,36 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+ color: maroon; 
+}
+
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.cursive{
+ font-family: cursive; 
+}
+
+.capitalize{
+ text-transform: capitalize;
+
+}
+
+
+.publish-time {
+  color: gray;
+}
+
+h2.destination {
+font-family: cursive;
+}
+
+/***
+chaining selectors is when you combine multiple selectors to an element */

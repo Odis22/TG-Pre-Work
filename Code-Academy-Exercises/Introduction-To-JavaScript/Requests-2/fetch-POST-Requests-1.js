@@ -1,0 +1,1 @@
+/* the fetch post request takes two arguements: an endpoint and an object that contains information.

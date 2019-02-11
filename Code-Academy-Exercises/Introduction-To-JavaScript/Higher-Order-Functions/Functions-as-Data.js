@@ -1,0 +1,18 @@
+const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
+  for(let i = 1; i <= 1000000; i++) {
+    if ( (2 + 2) != 4) {
+      console.log('Something has gone very wrong :( ');
+    }
+  }
+}
+
+// Write your code below
+/* You can rename a function to another name by 
+creating a creating a new varaible that holds 
+reference to the original function.
+*/
+const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+
+is2p2();
+
+console.log(is2p2.name);

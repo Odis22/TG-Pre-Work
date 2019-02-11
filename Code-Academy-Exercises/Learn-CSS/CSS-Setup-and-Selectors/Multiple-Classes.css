@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+ color: maroon; 
+}
+
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+/**
+This lesson taught me how to add multiple classes to one element. 

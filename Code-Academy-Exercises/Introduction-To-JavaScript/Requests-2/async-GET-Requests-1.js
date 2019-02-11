@@ -1,0 +1,6 @@
+/*
+async is used to create functions that will return promises.
+
+await  is used to tell a program to continue moving through the message queue while a promise resolves.
+
+*/

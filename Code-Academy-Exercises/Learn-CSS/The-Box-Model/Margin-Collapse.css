@@ -1,0 +1,14 @@
+/* when two vertical margins collide, they will cause a collapse. 
+*/
+
+#ElementA {
+  margin: 10px;
+}
+
+#ElementB {
+  margin: 10px;
+}
+
+#ElementC {
+  margin: 30px 10px;
+}

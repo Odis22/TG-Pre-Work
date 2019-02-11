@@ -1,0 +1,16 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
+}
+/*each grid contains only one column. with the grid-template-columns property, you need to define the number of rows and columns in our grid and the width.
+*/
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
