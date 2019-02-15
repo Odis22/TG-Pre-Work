@@ -1,6 +1,4 @@
-/* Getters are methods that get and return the 
-internal properties of an object
-*/
+
 const robot = {
   _model: '1E78V2',
   _energyLevel: 100,
@@ -15,3 +13,6 @@ const robot = {
 
 console.log(robot.energyLevel);
 
+/* Getters are methods that get and return the 
+internal properties of an object
+*/

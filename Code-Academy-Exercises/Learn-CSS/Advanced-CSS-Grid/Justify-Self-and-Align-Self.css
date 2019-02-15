@@ -3,7 +3,6 @@ header, footer {
   text-align: center;
   min-width: 500px;
 }
-/* align-self  is a property that positions grid items from top to bottom with respect to their column axis and justify-self specifies with respect to the row axis using values such as start, end, center, and stretch. */
 
 main {
   display: grid;
@@ -94,3 +93,5 @@ img {
 footer {
   margin-top: 44px;
 }
+
+/* align-self  is a property that positions grid items from top to bottom with respect to their column axis and justify-self specifies with respect to the row axis using values such as start, end, center, and stretch. */

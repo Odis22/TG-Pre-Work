@@ -1,6 +1,4 @@
-/* while using multiple ways of exporting is discouraged, it may be useful when developers only want to import a specific function
 
-*/
 
 export let availableAirplanes = [
 {name: 'AeroJet',
@@ -40,3 +38,7 @@ export let availableAirplanes = [
 };
 export { availableAirplanes as aircrafts, flightRequirements as flightReqs, meetsStaffRequirements as meetsStaffReqs, meetsSpeedRangeRequirements as meetsSpeedRangeReqs };
 export default meetsSpeedRangeRequirements;
+
+/* while using multiple ways of exporting is discouraged, it may be useful when developers only want to import a specific function
+
+*/

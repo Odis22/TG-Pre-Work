@@ -1,7 +1,4 @@
-/*
-this was similar to the GET Requests except that fetch had two arguements.
 
-*/
 const getData = async () => {
   try {
     const response = await fetch('https://api-to-call.com/endpoint', {
@@ -21,3 +18,7 @@ const getData = async () => {
     console.log(error);
   }
 };
+/*
+this was similar to the GET Requests except that fetch had two arguements.
+
+*/

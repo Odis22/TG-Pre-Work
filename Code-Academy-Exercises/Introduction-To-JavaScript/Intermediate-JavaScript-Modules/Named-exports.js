@@ -1,5 +1,3 @@
-/* named exports export data through variables
-*/
 
 
 let availableAirplanes = [
@@ -27,4 +25,6 @@ function meetsStaffRequirements(availableStaff, requiredStaff) {
   
   export { availableAirplanes, flightRequirements, meetsStaffRequirements};
 }
+/* named exports export data through variables
+*/
 

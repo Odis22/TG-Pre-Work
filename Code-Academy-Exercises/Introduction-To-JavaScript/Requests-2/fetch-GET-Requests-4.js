@@ -23,9 +23,7 @@ const getSuggestions = () => {
     renderResponse(jsonResponse);
   } );
 }
-/*
-with the two then() methods, one handled the promise if it resolves and one handles the network errors if the promise is rejected.
-*/
+
 // Clears previous results and display results to webpage
 const displaySuggestions = (event) => {
   event.preventDefault();
@@ -36,3 +34,6 @@ const displaySuggestions = (event) => {
 };
 
 submit.addEventListener('click', displaySuggestions);
+/*
+with the two then() methods, one handled the promise if it resolves and one handles the network errors if the promise is rejected.
+*/

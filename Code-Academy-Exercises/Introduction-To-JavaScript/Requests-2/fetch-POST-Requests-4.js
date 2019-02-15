@@ -26,9 +26,7 @@ const shortenUrl = () => {
 	throw new Error('Request failed!');
 }, networkError => {
   console.log(networkError.message);
-   /* this callback saves us from when the network
-   returns an error
-   */
+  
 }).then(jsonResponse => {
   console.log(jsonResponse);
 })
@@ -45,3 +43,6 @@ const displayShortUrl = (event) => {
 }
 
 shortenButton.addEventListener('click', displayShortUrl);
+ /* this callback saves us from when the network
+   returns an error
+   */

@@ -1,6 +1,4 @@
-/*
-Named exports are also distinct in that they can be exported as soon as they are declared
-*/
+
 let availableAirplanes = [{
  name: 'AeroJet',
  fuelCapacity: 800,
@@ -47,3 +45,7 @@ export function meetsStaffRequirements(){
 export function meetsSpeedRangeRequirements(){
 ...
 };
+
+/*
+Named exports are also distinct in that they can be exported as soon as they are declared
+*/

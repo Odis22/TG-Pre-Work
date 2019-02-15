@@ -9,9 +9,7 @@ const responseField = document.querySelector('#responseField');
 
 // AJAX functions
 // Code goes here
-/*
-the empty object had three properties. It contained the method value, the body that contained the data, and the headers that contained the value of the object
-*/
+
 const shortenUrl = async () => {
 	const urlToShorten = inputField.value;
   const data = JSON.stringify({destination: urlToShorten});
@@ -43,3 +41,7 @@ const displayShortUrl = (event) => {
 }
 
 shortenButton.addEventListener('click', displayShortUrl);
+/*
+the empty object had three properties. 
+It contained the method value, the body that contained the data, and the headers that contained the value of the object
+*/

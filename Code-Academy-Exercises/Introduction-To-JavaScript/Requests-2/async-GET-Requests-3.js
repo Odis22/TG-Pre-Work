@@ -19,7 +19,7 @@ const getSuggestions = async () => {
     if(response.ok){
       const jsonResponse = await response.json();
 	  renderResponse(jsonResponse); 
-      //the renderresponse code will clean up the code so that it will be displayed on the webpage neatly. 
+      
   }
     //we 
     throw new Error('Request failed!');
@@ -38,3 +38,4 @@ const displaySuggestions = (event) => {
 }
 
 submit.addEventListener('click', displaySuggestions);
+//the renderresponse code will clean up the code so that it will be displayed on the webpage neatly. 

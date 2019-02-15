@@ -1,6 +1,4 @@
-/*
-Class method and getter syntax is the same as it is for objects except you can not include commas between methods.
-*/
+
 class Surgeon {
   constructor(name, department) {
     this._name = name;
@@ -27,3 +25,7 @@ class Surgeon {
 
 const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
 const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
+
+/*
+Class method and getter syntax is the same as it is for objects except you can not include commas between methods.
+*/

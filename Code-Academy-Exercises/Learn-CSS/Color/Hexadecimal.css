@@ -1,5 +1,4 @@
-/* hexadecimal are characterized by hastags and they are mixture of red, blue, and green.
-*/
+
 body {
   padding: 0;
   margin: 0;
@@ -149,3 +148,6 @@ a {
   text-decoration: none;
   letter-spacing: 2px;
 }
+
+/* hexadecimal are characterized by hastags and they are mixture of red, blue, and green.
+*/

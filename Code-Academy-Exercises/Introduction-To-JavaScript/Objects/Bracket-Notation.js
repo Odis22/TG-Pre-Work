@@ -4,9 +4,7 @@ let spaceship = {
   homePlanet : 'Earth', 
   numCrew: 5
  };
-/* 
-to use bracket notation, we the property name as a string
-*/
+
 let propName =  'Active Mission';
 
 // Write your code below
@@ -14,3 +12,7 @@ let propName =  'Active Mission';
 let isActive = spaceship['Active Mission'];
 
 console.log(spaceship[propName]);
+
+/* 
+to use bracket notation, we the property name as a string
+*/

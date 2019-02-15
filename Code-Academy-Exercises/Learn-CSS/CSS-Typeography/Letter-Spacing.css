@@ -14,8 +14,7 @@ h2 {
    word-spacing: 0.05em;
   letter-spacing: 0.02em;
 }
-/*letter-spacing property can increase the letter space between text
-*/
+
 h1 {
   color: white;
   font-size: 28px;
@@ -165,3 +164,6 @@ a.home {
     display: none;
   }
 }
+
+/*letter-spacing property can increase the letter space between text
+*/

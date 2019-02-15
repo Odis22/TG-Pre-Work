@@ -1,6 +1,4 @@
-/*
- Classes are a tool that developers use to quickly produce similar objects.
- */
+
 class Dog {
   constructor(name) {
     this._name = name;
@@ -25,3 +23,8 @@ console.log(halley.behavior); // Print behavior value to console
 halley.incrementBehavior(); // Add one to behavior
 console.log(halley.name); // Print name value to console
 console.log(halley.behavior); // Print behavior value to console
+
+
+/*
+ Classes are a tool that developers use to quickly produce similar objects.
+ */

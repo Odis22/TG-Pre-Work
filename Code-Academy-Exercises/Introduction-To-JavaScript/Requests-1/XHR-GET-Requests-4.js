@@ -2,7 +2,7 @@
 const url = 'https://api.datamuse.com/words?';
 const queryParams = 'rel_jjb=';
 const additionalParams = '&topics=';
-//the & character is designed to seperate our parameters
+
 // Selecting page elements
 const inputField = document.querySelector('#input');
 const topicField = document.querySelector('#topic');
@@ -38,3 +38,4 @@ const displaySuggestions = (event) => {
 }
 
 submit.addEventListener('click', displaySuggestions);
+//the & character is designed to seperate our parameters

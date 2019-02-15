@@ -12,9 +12,6 @@
   grid-row-end: 7;
 }
 
-/* 
-grid-row-start and grid-row-end properties can make single grid items taking up multiple rows. 
-*/
 
 .box {
   background-color: beige;
@@ -22,3 +19,7 @@ grid-row-start and grid-row-end properties can make single grid items taking up 
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
+
+/* 
+grid-row-start and grid-row-end properties can make single grid items taking up multiple rows. 
+*/

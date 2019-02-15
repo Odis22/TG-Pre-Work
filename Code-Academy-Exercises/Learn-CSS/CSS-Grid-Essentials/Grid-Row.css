@@ -10,13 +10,15 @@
 .a {
   grid-row: 5 / 7;
 }
-/*
-the grid row property is the shortned version grid-row-start and grid-row-end properties
 
-*/
 .box {
   background-color: beige;
   color: black;
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
+
+/*
+the grid row property is the shortned version grid-row-start and grid-row-end properties
+
+*/

@@ -8,8 +8,6 @@
   grid-gap: 20px 5px;
 }
 
-/*grid gap will create gaps between columns and rows
-*/
 
 .box {
   background-color: beige;
@@ -17,3 +15,7 @@
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
+
+
+/*grid gap will create gaps between columns and rows
+*/

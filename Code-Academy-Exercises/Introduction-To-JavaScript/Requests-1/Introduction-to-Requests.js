@@ -1,7 +1,4 @@
-/*
-The HTTP GET request is responsible for retrieving information from a source.The HTTP POST request
-post request information to a source that will proces information and send it back
-*/
+
 const jsonButton = document.querySelector('#generate');
 const buttonContainer = document.querySelector('#buttonContainer');
 const display = document.querySelector('#displayContainer');
@@ -53,3 +50,9 @@ const changeButton = () => {
 }
 
 jsonButton.addEventListener('click', generateJson);
+
+
+/*
+The HTTP GET request is responsible for retrieving information from a source.The HTTP POST request
+post request information to a source that will proces information and send it back
+*/

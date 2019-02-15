@@ -5,14 +5,14 @@ for (let i = 0; i < rapperArray.length; i++){
   console.log(rapperArray[i]);
   if (rapperArray[i] === 'Notorious B.I.G.'){
     break;
-    /* 
-    break keyword allows programs to break out of the loop from within the loop's block
-    */
+    
   }
 }
 
 console.log("And if you don't know, now you know.");
-
+/* 
+    break keyword allows programs to break out of the loop from within the loop's block
+    */
 
 
 

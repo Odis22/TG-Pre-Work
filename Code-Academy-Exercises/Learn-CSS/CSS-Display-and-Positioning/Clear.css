@@ -95,8 +95,7 @@ footer {
   
   
 }
-/**the clear property will specifify how elements should behave when they bump into each other. if we clear to the left, the left side of the element won't touch any other elemtn within the same container. if we clear to the right, the right side of the element won't touch any other elemtn within the same container. if both, neither side will touch. with none, the element can touch either side. 
-**/
+
 .answer {
   border: 1px solid #466995;
   margin: 20px;
@@ -112,3 +111,6 @@ footer {
 footer {
   height: 100px;
 }
+
+/**the clear property will specifify how elements should behave when they bump into each other. if we clear to the left, the left side of the element won't touch any other elemtn within the same container. if we clear to the right, the right side of the element won't touch any other elemtn within the same container. if both, neither side will touch. with none, the element can touch either side. 
+**/

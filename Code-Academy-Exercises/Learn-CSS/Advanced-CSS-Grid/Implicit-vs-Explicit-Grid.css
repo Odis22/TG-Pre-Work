@@ -3,7 +3,6 @@ header, footer {
   text-align: center;
   min-width: 500px;
 }
-/* implicit grid is an algorithim that determines default behavior for elements when there are more than fit into the grid specified by the CSS.  */
 
 main {
   display: grid;
@@ -94,3 +93,4 @@ img {
 footer {
   margin-top: 44px;
 }
+/* implicit grid is an algorithim that determines default behavior for elements when there are more than fit into the grid specified by the CSS.  */

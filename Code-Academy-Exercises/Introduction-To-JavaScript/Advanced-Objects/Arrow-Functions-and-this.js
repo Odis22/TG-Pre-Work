@@ -4,7 +4,8 @@ const robot = {
     console.log(`Energy is currently at ${this.energyLevel}%.`)
   }
 }
+
+robot.checkEnergy();
 /*
 Arrow functions inherently bind, or tie, an already defined this value to the function itself that is NOT the calling object. long story short, never usearrow functions when using this in a method
 */
-robot.checkEnergy();

@@ -1,6 +1,4 @@
-/*  
-setter methods reassign values of existing properties
-*/
+
 const robot = {
   _model: '1E78V2',
   _energyLevel: 100,
@@ -25,3 +23,7 @@ const robot = {
  robot.numOfSensors = 100;
 
 console.log(robot.numOfSensors); 
+
+/*  
+setter methods reassign values of existing properties
+*/

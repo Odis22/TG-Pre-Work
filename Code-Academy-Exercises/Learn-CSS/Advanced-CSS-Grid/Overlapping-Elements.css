@@ -6,8 +6,7 @@
   grid-gap: 10px;
   grid-template: repeat(12, 1fr) / repeat(6, 1fr);
 }
-/* grid area property is grid-row-start, grid-column-start, grid-row-end, and grid-column-end.z-index property tells the browser to render the image element on top  of any other element on the page
-*/
+
 h1, h2, h3 {
   font-family: monospace;
   text-align: center;
@@ -43,3 +42,6 @@ footer {
   background-color: dodgerblue;
   grid-area: 9/1/13/7;
 }
+
+/* grid area property is grid-row-start, grid-column-start, grid-row-end, and grid-column-end.z-index property tells the browser to render the image element on top  of any other element on the page
+*/

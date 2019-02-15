@@ -28,7 +28,7 @@ const shortenUrl = () => {
   console.log(networkError.message);
 }).then(jsonResponse => {
   renderResponse(jsonResponse);
-    // this then() chain makes the info available to your webpage.
+    
 })
   
 }
@@ -43,3 +43,4 @@ const displayShortUrl = (event) => {
 }
 
 shortenButton.addEventListener('click', displayShortUrl);
+// this then() chain makes the info available to your webpage.

@@ -1,6 +1,4 @@
-/* 
-export default exports javascript objects, funtions and primitive data types. 
-*/
+
 let Airplane  = {};
 
 export default Airplane;
@@ -14,4 +12,6 @@ Airplane.availableAirplanes = [
   fuelCapacity: 500
  }
 ];
-
+/* 
+export default exports javascript objects, funtions and primitive data types. 
+*/

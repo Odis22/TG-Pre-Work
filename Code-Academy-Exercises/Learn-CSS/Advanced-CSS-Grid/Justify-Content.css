@@ -3,7 +3,6 @@ header, footer {
   text-align: center;
   min-width: 500px;
 }
-/* justify content positions grid items along the row axis */
 main {
   display: grid;
   grid-template-columns: 250px 250px;
@@ -89,3 +88,4 @@ img {
 footer {
   margin-top: 44px;
 }
+/* justify content positions grid items along the row axis */

@@ -87,7 +87,7 @@ a.home {
   color: #ffffff;
   font-weight: bold;
 }
-/* We can make the text bold by changing the font-weight property to bold. */
+
 
 /* Editorial Sections */
 
@@ -160,3 +160,5 @@ a.home {
     display: none;
   }
 }
+
+/* We can make the text bold by changing the font-weight property to bold. */

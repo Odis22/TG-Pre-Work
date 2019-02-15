@@ -16,10 +16,7 @@ const timeFuncRuntime = funcParameter => {
 };
 
 // Write your code below
-/* A higher-order function is a function that 
-either accepts functions as parameters, returns a 
-function, or both!
-*/
+
 const time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
 
 const checkConsistentOutput = (func, val) => {
@@ -33,3 +30,8 @@ const checkConsistentOutput = (func, val) => {
 };
 
 checkConsistentOutput(addTwo, 10);
+
+/* A higher-order function is a function that 
+either accepts functions as parameters, returns a 
+function, or both!
+*/

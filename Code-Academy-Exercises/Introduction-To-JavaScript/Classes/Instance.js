@@ -1,4 +1,4 @@
-//an instance is an object that contains the property names and methods of a class with unique values.
+
 class Surgeon {
   constructor(name, department) {
     this.name = name;
@@ -20,3 +20,6 @@ const surgeonCurry = new Surgeon('Curry', 'Cardiovascular'); // Create new Dog i
 console.log(halley.name); // Log the name value saved to halley
 */
 // Output: 'Halley'
+
+
+//an instance is an object that contains the property names and methods of a class with unique values.

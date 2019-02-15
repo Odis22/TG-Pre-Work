@@ -1,10 +1,4 @@
-/*
-how to use the this keyword.
-conveying privacy in JavaScript methods.
-defining getters and setters in objects.
-creating factory functions.
-using destructuring techniques
-*/
+
 const robot = {
   model: 'B-4MI',
   mobile: true,
@@ -42,3 +36,10 @@ const chargingStation = {
     return this._robotCapacity;
   }
 }
+/*
+how to use the this keyword.
+conveying privacy in JavaScript methods.
+defining getters and setters in objects.
+creating factory functions.
+using destructuring techniques
+*/

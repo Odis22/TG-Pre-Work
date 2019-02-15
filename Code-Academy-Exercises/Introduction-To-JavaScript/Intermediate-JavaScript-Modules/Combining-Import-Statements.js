@@ -1,6 +1,4 @@
-/*
-We can import the collection of objects and functions with the same data.
-*/
+
 import {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
 
 import meetsSpeedRangeRequirements from './airplane';
@@ -28,3 +26,7 @@ function displaySpeedRangeStatus() {
 }
 
 displaySpeedRangeStatus();
+
+/*
+We can import the collection of objects and functions with the same data.
+*/

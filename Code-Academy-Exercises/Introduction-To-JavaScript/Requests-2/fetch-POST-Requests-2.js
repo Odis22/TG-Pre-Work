@@ -3,7 +3,7 @@ fetch('https://api-to-call.com/endpoint', {
   body: JSON.stringify({id: "200"})
 }).then(response => {
   if(response.ok){
-	  return response.json();  //when returned, this information will passed to the next .then() callback function
+	  return response.json();  
   }
 	throw new Error('Request failed!');
 }, networkError => {
@@ -11,3 +11,6 @@ fetch('https://api-to-call.com/endpoint', {
 }).then(jsonResponse => {
   console.log(jsonResponse);
 })
+
+
+//when returned, this information will passed to the next .then() callback function

@@ -19,8 +19,7 @@ h1 {
   font-size: 28px;
   text-transform: uppercase;
 }
-/* with text transform you can make text of an element all uppercase or lowercase 
-*/
+
 h2 {
   font-size: 24px;
   font-weight: 700;
@@ -165,3 +164,6 @@ a.home {
     display: none;
   }
 }
+
+/* with text transform you can make text of an element all uppercase or lowercase 
+*/

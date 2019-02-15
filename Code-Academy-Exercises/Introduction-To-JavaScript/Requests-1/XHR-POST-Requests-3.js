@@ -21,9 +21,7 @@ const shortenUrl = () => {
 		}
   }
   xhr.open('POST', url);
-  /* 
-  to access the API, we make a header with 2 key value pairs, the content type and apikey.
-  */
+ 
   xhr.setRequestHeader('Content-type', 'application/json');
 	xhr.setRequestHeader('apikey', apiKey);
   xhr.send(data);
@@ -40,3 +38,6 @@ const displayShortUrl = (event) => {
 }
 
 shortenButton.addEventListener('click', displayShortUrl);
+ /* 
+  to access the API, we make a header with 2 key value pairs, the content type and apikey.
+  */

@@ -111,8 +111,6 @@ a.home {
   line-height: 1.25;
   font-style: italic;
 }
-/* you can make the text italicized by chaning the font style property to italic.
-*/
 
 .sample {
   display: inline-block;
@@ -163,3 +161,8 @@ a.home {
     display: none;
   }
 }
+
+
+/* you can make the text italicized by chaning the font style property to italic.
+*/
+

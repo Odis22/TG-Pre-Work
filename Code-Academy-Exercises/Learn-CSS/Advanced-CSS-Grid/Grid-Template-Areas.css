@@ -11,8 +11,6 @@
   grid-template-columns: 200px 400px; 
   grid-template-rows: 150px 200px 600px 200px;
 }
-/* grid-template-areas allows you to name sections of your web page to use as values in the grid-row-start, grid-row-end, grid-col-start,grid-col-end, and grid-area properties
-*/
 
 h1, h2 {
   font-family: monospace;
@@ -43,3 +41,5 @@ footer {
   background-color: dodgerblue;
   grid-area: footer;
 }
+/* grid-template-areas allows you to name sections of your web page to use as values in the grid-row-start, grid-row-end, grid-col-start,grid-col-end, and grid-area properties
+*/

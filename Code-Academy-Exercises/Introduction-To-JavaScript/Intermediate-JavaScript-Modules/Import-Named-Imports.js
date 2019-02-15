@@ -1,7 +1,4 @@
-/*
-To import variables that are declared, we simply use the original syntax that describes the variable name
-*/
-import {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
+port {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
 
 function displayFuelCapacity() {
   availableAirplanes.forEach(function(element) {
@@ -26,3 +23,8 @@ function displaySpeedRangeStatus() {
 }
 
 displaySpeedRangeStatus();
+
+/*
+To import variables that are declared, we simply use the original syntax that describes the variable name
+*/
+im

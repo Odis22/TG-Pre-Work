@@ -4,8 +4,6 @@
   font-family: "Glegoo";
   src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
 }
-/* to modify the font-face using local font files, we can use a relative filepath and format for which font to use.
-*/
 
 @font-face {
   font-family: 'Space Mono';
@@ -200,3 +198,5 @@ a.home {
     display: none;
   }
 }
+/* to modify the font-face using local font files, we can use a relative filepath and format for which font to use.
+*/

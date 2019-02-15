@@ -1,6 +1,4 @@
-/*
-To import named export aliases with the as keyword, we add the aliased variable in our import statemen
-*/
+
 import {aircrafts, flightReqs, meetsStaffReqs, meetsSpeedRangeReqs} from './airplane';
 
 function displayFuelCapacity() {
@@ -26,3 +24,7 @@ function displaySpeedRangeStatus() {
 }
 
 displaySpeedRangeStatus();
+
+/*
+To import named export aliases with the as keyword, we add the aliased variable in our import statemen
+*/

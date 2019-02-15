@@ -1,7 +1,4 @@
-/* 
-to import objects in a variable, we import the variables in {}
 
-*/
 import {availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
 
 function displayFuelCapacity() {
@@ -19,3 +16,7 @@ function displayStaffStatus() {
 }
 
 displayStaffStatus();
+/* 
+to import objects in a variable, we import the variables in {}
+
+*/

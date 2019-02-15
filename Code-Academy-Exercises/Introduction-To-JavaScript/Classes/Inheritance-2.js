@@ -1,6 +1,4 @@
-/* 
-HospitalEmployee is the parent class
-*/
+
 class HospitalEmployee {
   constructor(name) {
     this._name = name;
@@ -20,4 +18,6 @@ class HospitalEmployee {
   }
  
 }
-
+/* 
+HospitalEmployee is the parent class
+*/

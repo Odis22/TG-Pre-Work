@@ -105,3 +105,6 @@ footer {
 footer {
   height: 100px;
 }
+ /*
+block level elements are not displayed in the same line as the content around them.
+*/

@@ -1,6 +1,4 @@
-/*HSL stands for hue, saturation and Lightness.
-The first number represents the degree of the hue, and can be between 0 and 360. The second and third numbers are percentages representing saturation and lightness respectively.
-*/
+
 html,
 body {
   margin: 0;
@@ -36,3 +34,7 @@ body {
 .foreground {
   background-color: hsl(325, 50%, 50%);
 }
+
+/*HSL stands for hue, saturation and Lightness.
+The first number represents the degree of the hue, and can be between 0 and 360. The second and third numbers are percentages representing saturation and lightness respectively.
+*/

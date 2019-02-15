@@ -1,4 +1,4 @@
-//.then() will fire only after promise status of fetch() has been resolved
+
 fetch('https://api-to-call.com/endpoint').then(response => {
   if (response.ok) {
     return response.json();
@@ -9,3 +9,5 @@ fetch('https://api-to-call.com/endpoint').then(response => {
 }).then(jsonResponse => {
   return jsonResponse;
 });
+
+//.then() will fire only after promise status of fetch() has been resolved

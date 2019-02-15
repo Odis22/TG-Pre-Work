@@ -1,5 +1,4 @@
-/* this keyword references the calling object which provides access to the calling object's properties.
-*/
+
 const robot = {
   model: '1E78V2',
   energyLevel: 100,
@@ -9,3 +8,6 @@ const robot = {
 };
 
 console.log(robot.provideInfo());
+
+/* this keyword references the calling object which provides access to the calling object's properties.
+*/

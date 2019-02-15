@@ -1,6 +1,4 @@
-/*
-a factor function returns an object and can be reused to make multiple object instances
-*/
+
 const robotFactory = (model, mobile) => {
   return { 
     model: model,
@@ -14,3 +12,6 @@ const robotFactory = (model, mobile) => {
 
 const tinCan = robotFactory('P-500', true);
 tinCan.beep(); // 'BOO!'
+/*
+a factor function returns an object and can be reused to make multiple object instances
+*/

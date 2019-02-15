@@ -25,9 +25,11 @@ class Nurse extends HospitalEmployee {
 }
 
 const nurseOlynyk = new Nurse('Olynyk', ['Trauma','Pediatrics']);
+
+nurseOlynyk.takeVacationDays(5);
+console.log(nurseOlynyk.remainingVacationDays);
+
 /* 
 with the extends keyword in a class declaration, 
 all of the parent methods are available to the child class.
 */
-nurseOlynyk.takeVacationDays(5);
-console.log(nurseOlynyk.remainingVacationDays);

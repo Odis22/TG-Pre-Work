@@ -6,7 +6,8 @@ const robot = {
   }
 };
 robot._energyLevel = 'high';
+
+robot.recharge();
 /* _underscore before the property name means the 
 property should not be altered
 */
-robot.recharge();

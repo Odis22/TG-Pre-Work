@@ -3,8 +3,9 @@ const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'm
 
 
  chores.pop();
+
+console.log(chores);
 /* 
 pop array mutates the initial array by removing 
 the last element
 */
-console.log(chores);

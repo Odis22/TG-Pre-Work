@@ -10,7 +10,7 @@ const responseField = document.querySelector('#responseField');
 // AJAX functions
 const shortenUrl = () => {
   const urlToShorten = inputField.value;
-  const data = JSON.stringify({destination: urlToShorten});//this variable will prepare the information needed to send in the body
+  const data = JSON.stringify({destination: urlToShorten});
 
   fetch(url, {
   method: 'POST',
@@ -42,3 +42,4 @@ const displayShortUrl = (event) => {
 }
 
 shortenButton.addEventListener('click', displayShortUrl);
+//this variable will prepare the information needed to send in the body

@@ -1,7 +1,5 @@
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
-/*
-map will take an arguement of a callback function and return a new array
-*/
+
 // Create the secretMessage array below
 
 const secretMessage = animals.map(animal => {
@@ -15,3 +13,8 @@ const bigNumbers = [100, 200, 300, 400, 500];
 const smallNumbers = bigNumbers.map(bigNumber => {
   return bigNumber / 100;
 });
+
+
+/*
+map will take an arguement of a callback function and return a new array
+*/

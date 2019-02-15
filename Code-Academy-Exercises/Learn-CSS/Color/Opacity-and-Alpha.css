@@ -1,5 +1,4 @@
-/*opacity is the amount of transparency and alpha is decimal number from one to zero ( with zero being transparent and one being opaque)
-*/
+
 html,
 body {
   margin: 0;
@@ -35,3 +34,6 @@ body {
 .foreground {
   background-color: hsla(325, 50%, 50%, 0.6);
 }
+
+/*opacity is the amount of transparency and alpha is decimal number from one to zero ( with zero being transparent and one being opaque)
+*/

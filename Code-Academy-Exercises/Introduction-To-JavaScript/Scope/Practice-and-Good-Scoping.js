@@ -8,6 +8,9 @@ const logVisibleLightWaves = () => {
   }
   console.log(lightWaves);
 };
+
+logVisibleLightWaves();
+
 /*
 It will make your code more legible since the 
 blocks will organize your code into discrete sections.
@@ -20,4 +23,3 @@ will be modular.
 It will save memory in your code because it will 
 cease to exist after the block finishes running.
 */
-logVisibleLightWaves();

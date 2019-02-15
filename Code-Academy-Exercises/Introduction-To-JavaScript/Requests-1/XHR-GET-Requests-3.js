@@ -1,7 +1,7 @@
 // Information to reach API
 const url = 'https://api.datamuse.com/words?';
 const queryParams = 'rel_rhy='
-// that is the start of the parameter for the query string
+
 // Selecting page elements
 const inputField = document.querySelector('#input');
 const submit = document.querySelector('#submit');
@@ -32,3 +32,4 @@ const displaySuggestions = (event) => {
 }
 
 submit.addEventListener('click', displaySuggestions);
+// queryParams is the start of the parameter for the query string

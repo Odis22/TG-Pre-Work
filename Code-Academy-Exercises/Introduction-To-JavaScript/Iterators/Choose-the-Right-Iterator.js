@@ -3,7 +3,7 @@ const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', '
 const nums = [1, 50, 75, 200, 350, 525, 1000];
 
 //  Choose a method that will return undefined
-//.forEach will return undefined because there is no function for the forEach. 
+
 cities.forEach(city => console.log('Have you visited ' + city + '?'));
 
 // Choose a method that will return a new array
@@ -22,3 +22,4 @@ const smallerNums = nums.map(num => num - 5);
 // Choose a method that will return a boolean value
 nums.every(num => num < 0);
 // OR nums.some(num => num < 0);
+//.forEach will return undefined because there is no function for the forEach. 

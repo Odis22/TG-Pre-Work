@@ -1,0 +1,54 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.description h5 {
+  
+  color: teal;
+}
+
+h5 {
+ color: rebeccapurple !important; 
+}
+
+h5, 
+p {
+  font-family: Georgia;
+}
+
+/*
+.description h5 {
+  
+  color: teal;
+}
+
+for h5 element inside the description class, that h5 element will be teal. any other h5 outside will not be teal*/
+
+

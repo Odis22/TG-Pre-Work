@@ -3,7 +3,6 @@ header, footer {
   text-align: center;
   min-width: 500px;
 }
-/* align-items is a property that positions grid items from top to bottom within their rows using values such as start, end, center, and stretch. */
 main {
   display: grid;
   grid-template-columns: 250px 250px;
@@ -90,3 +89,5 @@ img {
 footer {
   margin-top: 44px;
 }
+
+/* align-items is a property that positions grid items from top to bottom within their rows using values such as start, end, center, and stretch. */

@@ -20,8 +20,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-/* text align can move and align the text to our liking.
-*/
+
 h2 {
   font-size: 24px;
   font-weight: 700;
@@ -169,3 +168,5 @@ a.home {
     display: none;
   }
 }
+/* text align can move and align the text to our liking.
+*/

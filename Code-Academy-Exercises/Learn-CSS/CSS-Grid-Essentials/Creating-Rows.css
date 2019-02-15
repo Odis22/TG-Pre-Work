@@ -6,11 +6,13 @@
   grid-template-columns: 100px 50% 200px;
   grid-template-rows: 40% 50% 50px;
 }
-/* setting up grid-template-rows is just the same as setting up columns. i have to specify the number of rows and the size.
-*/
+
 .box {
   background-color: beige;
   color: black;
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
+
+/* setting up grid-template-rows is just the same as setting up columns. i have to specify the number of rows and the size.
+*/

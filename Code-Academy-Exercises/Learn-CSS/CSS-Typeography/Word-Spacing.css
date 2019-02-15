@@ -13,9 +13,7 @@ h2 {
  font-family: "Georgia";
    word-spacing: 0.05em;
 }
-/*word spacing property increases the spacing between words in a body of text
 
-*/
 h1 {
   color: white;
   font-size: 28px;
@@ -165,3 +163,6 @@ a.home {
     display: none;
   }
 }
+/*word spacing property increases the spacing between words in a body of text
+
+*/

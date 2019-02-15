@@ -3,7 +3,6 @@ header, footer {
   text-align: center;
   min-width: 500px;
 }
-/* grid-auto-rows specifies the height of implicitly added grid rows. grid-auto-columns specifies the width of implicitly added grid columns.*/
 
 main {
   display: grid;
@@ -96,3 +95,5 @@ img {
 footer {
   margin-top: 44px;
 }
+
+/* grid-auto-rows specifies the height of implicitly added grid rows. grid-auto-columns specifies the width of implicitly added grid columns.*/
